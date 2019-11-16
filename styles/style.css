@@ -24,17 +24,16 @@ p{
     display: flex;
     justify-content: center;
     background: #333;
-    background: rgba(0, 0, 0, 0.25);*/
+    background: rgba(0, 0, 0, 0.25);
 
     background-image: linear-gradient(
-    90deg,
-    #rgba(0,0,225,0.733)
+    90deg, rgba(0,0,225,0.733)
     );
-    color: #white;
+    color: white;
     margin-bottom: 100px;
     position: relative;
     overflow: hidden;
-    win-height: 100vh
+    min-height: 100vh
 }
 .video-bg{
     position: absolute;
